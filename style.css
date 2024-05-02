@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: black;
+    color: rgb(255, 208, 55);
+    margin: 0px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.bloco1 {
+
+    padding: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.bloco2 {
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    max-height: 800px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.boximg {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+
+}
+
+.imagem {
+    width: auto;
+    height: 450px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: -2px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 4px 10px rgba(87, 85, 85, 0.5);
+}
+
+.form {
+
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    width: 300px;
+    background-color: rgb(255, 202, 30);
+    box-shadow: 0px 4px 10px rgba(87, 85, 85, 0.5);
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.form input {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 2px;
+    border-style: none;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.form h1 {
+
+    margin-bottom: 10px;
+    color: rgb(241, 19, 19);
+
+
+}
+
+.botao {
+
+  
+    text-align: center;
+    width: 150px;
+    margin: 0px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+
+
+}
+
+#res {
+
+
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+footer {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 623px) {
+
+    .bloco2 {
+
+        margin: 10px;
+        padding: 20px;
+        max-width: 600px;
+        max-height: 600px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 598px) {
+
+    .imagem {
+        width: 250px;
+        height: 450px;
+
+    }
+
+}
+
+@media only screen and (max-width: 524px) {
+
+    .imagem {
+        width: 250px;
+        height: 300px;
+
+    }
+
+    .form input {
+
+        padding: 3px;
+        font-size: 10px;
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
+
+    }
+
+    .form {
+
+        width: 250px;
+       
+    }
+
+    .botao {
+
+        width: 100px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 2px;
+
+    }
+
+    .bloco1 {
+
+        padding: 20px;
+       margin-bottom: 0px;
+    }
+
+    .bloco2 {
+    
+        margin-top: 10px;
+        padding-top: 5px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    footer {
+       padding: 40px;
+       padding-top: 10px;
+    }
+
+    #res {
+
+
+        text-align: center;
+        font-size: 9px;
+        margin-top: 4px;
+        padding: 5px;
+    
+        border-radius: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+}
+
+@media only screen and (max-width: 512px){
+
+    .form h1 {
+
+        font-size: 16px;
+        margin-top: 08px;
+            
+    }
+}
+
+
+
+@media only screen and (max-width: 488px) {
+
+    header{
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    
+    .bloco1 {
+
+        padding-left: 40px;
+        padding-right: 40px;
+       
+    }
+    .bloco1 h2 {
+
+       font-size: 15px;
+    }
+
+    .boximg{
+
+        display: none;
+
+    }
+
+    .form{
+
+        
+        border-radius: 10px 10px 10px 10px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:388px){
+
+    
+    header{
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .bloco1 h2 {
+
+        font-size: 12px;
+     }
+}
+
+@media only screen and (max-width:264px) {
+
+    header{
+        padding: 8px;
+        font-size: 10px;
+    }
+
+}
